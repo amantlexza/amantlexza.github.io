@@ -1,8 +1,9 @@
-<!--amantlexza.github.io-->
-<!--My Portfolio-->
 <html>
     <head>
-        <title></title>
+        <title>Amantle</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<link href="mycss.css" rel="stylesheet" type="text/css"/>-->
     </head>
     <body>
         <!--Header with Navigation-->
@@ -10,34 +11,52 @@
             <img>
             <nav>
                 <ul>
-                    <li><a href= "#"></a></li>
-                    <li><a href= "#"></a></li>
-                    <li><a href= "#"></a></li>
-                    <li><a href= "#"></a></li>
-                    <li><a href= "#"></a></li>
+                    <li><a href= "#HomeDiv">Home</a></li>
+                    <li><a href= "#stacksDiv">About</a></li>
+                    <li><a href= "#aboutDiv">About</a></li>
+                    <li><a href= "#projectsDiv">Projects</a></li>
+                    <li><a href= "#contactDiv">Contacts</a></li>
                 </ul>
             </nav>    
         </header>
+         <!--Home-->
+         <section id="homeDiv">
+             <h1>Hi There! </h1>
+             <p>I am Amantle Mashele, a second year Bachelor of Computing student </p> 
+        </section>
         <!--About Amantle-->
-        <div id="aboutDiv">
-
-        </div>
-        <!--Amantle's eduaction-->
-        <div id="eduDiv">
+        <section id="aboutDiv">
             
-        </div>
-        <!--Amantle's Skills and Experience-->
-        <div id="skillsDiv">
-            
-        </div>
+        </section>
+        <!--Stacks Amantle-->
+        <section id="stacksDiv">
+            <div class="lang">c#</div>
+            <div class="lang">SQL</div>
+            <div class="lang">html, css & javascript</div>
+            <div class="lang">IoT</div>
+        </section>
         <!--Amantle's Projects and other orgs-->
-        <div id="projectsDiv">
+        <section id="projectsDiv">
+            <div class="proj"> <!--first year web design project-->
+                https://amantlexza.github.io/Aimee-TomWedding/</div>
+            <div class="proj"> <!--first IoT project-->
+                <iframe width="725" height="453" src="https://www.tinkercad.com/embed/eeRz6DZoI0X?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no">
+                </iframe>/div>
             
-        </div>
+        </section>
         <!--Amantle's Contact Details-->
-        <div id="contactDiv">
-            
-        </div>
+        <section id="contactDiv">
+            <form action='mailto:amantlemashele@gmail.com?subject=Message from your website'  method="post" enctype="text/plain">
+                <ul>
+                    <li>First name: <input type="text" id="fname" name="fname"></li>
+                    <li>Last name: <input type="text" id="lname" name="lname"></li>
+                    <li>Message: <textarea name="message" rows="10" cols="50"></textarea></li>  
+                    <li>E-mail:<input type="text" name="mail"><br><br></li>  
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </ul>
+              </form>
+        </section>
 
         
 
